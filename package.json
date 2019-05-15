@@ -1,0 +1,19 @@
+{
+  "name": "jokes_gateway",
+  "version": "1.0.0",
+  "description": "API Gateway for jokes client.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Siar Ahmadi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
